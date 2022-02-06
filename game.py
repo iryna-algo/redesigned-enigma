@@ -2,10 +2,6 @@ from curses import window
 from pygame import *
 import os 
 
-window = display.set_mode((700, 500))
-display.set_caption("Догонялки")
-clock = time.Clock()
-
 background = transform.scale(image.load("background.jpg"), (700,500))
 sprite1 = transform.scale(image.load("hero.png"), (100, 100))
 
