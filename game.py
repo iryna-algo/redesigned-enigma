@@ -4,6 +4,7 @@ import os
 
 background = transform.scale(image.load("background.jpg"), (700,500))
 sprite1 = transform.scale(image.load("hero.png"), (100, 100))
+a = 5
 
 game = True
 x = 100
